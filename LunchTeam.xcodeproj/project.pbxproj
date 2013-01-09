@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		F8D99D1B169DA3A600C04C64 /* LunchTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D99D1F169DA3A600C04C64 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		F8D99D21169DA3A600C04C64 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		F8D99D21169DA3A600C04C64 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
 		F8D99D28169DA3A600C04C64 /* LunchTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunchTeam-Info.plist"; sourceTree = "<group>"; };
 		F8D99D2A169DA3A600C04C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8D99D2C169DA3A600C04C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -291,6 +291,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks/,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -308,6 +309,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks/,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -349,6 +351,7 @@
 				F8D99D3C169DA3A600C04C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8D99D3D169DA3A600C04C64 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -357,6 +360,7 @@
 				F8D99D3F169DA3A600C04C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
