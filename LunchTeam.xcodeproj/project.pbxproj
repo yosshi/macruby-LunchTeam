@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D99D20169DA3A600C04C64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D99D1F169DA3A600C04C64 /* Cocoa.framework */; };
+		F8D99D22169DA3A600C04C64 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D99D21169DA3A600C04C64 /* MacRuby.framework */; };
+		F8D99D2B169DA3A600C04C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D99D29169DA3A600C04C64 /* InfoPlist.strings */; };
+		F8D99D2D169DA3A600C04C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D99D2C169DA3A600C04C64 /* main.m */; };
+		F8D99D32169DA3A600C04C64 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D99D30169DA3A600C04C64 /* MainMenu.xib */; };
+		F8D99D35169DA3A600C04C64 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = F8D99D34169DA3A600C04C64 /* rb_main.rb */; };
+		F8D99D37169DA3A600C04C64 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = F8D99D36169DA3A600C04C64 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D99D24169DA3A600C04C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D99D12169DA3A600C04C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D99D1A169DA3A600C04C64;
+			remoteInfo = LunchTeam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D99D1B169DA3A600C04C64 /* LunchTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D99D1F169DA3A600C04C64 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F8D99D21169DA3A600C04C64 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		F8D99D28169DA3A600C04C64 /* LunchTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LunchTeam-Info.plist"; sourceTree = "<group>"; };
+		F8D99D2A169DA3A600C04C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8D99D2C169DA3A600C04C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D99D2E169DA3A600C04C64 /* LunchTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LunchTeam-Prefix.pch"; sourceTree = "<group>"; };
+		F8D99D31169DA3A600C04C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F8D99D34169DA3A600C04C64 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		F8D99D36169DA3A600C04C64 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D99D18169DA3A600C04C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D99D20169DA3A600C04C64 /* Cocoa.framework in Frameworks */,
+				F8D99D22169DA3A600C04C64 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D99D10169DA3A600C04C64 = {
+			isa = PBXGroup;
+			children = (
+				F8D99D26169DA3A600C04C64 /* LunchTeam */,
+				F8D99D1E169DA3A600C04C64 /* Frameworks */,
+				F8D99D1C169DA3A600C04C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D99D1C169DA3A600C04C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D1B169DA3A600C04C64 /* LunchTeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D99D1E169DA3A600C04C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D1F169DA3A600C04C64 /* Cocoa.framework */,
+				F8D99D21169DA3A600C04C64 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D99D26169DA3A600C04C64 /* LunchTeam */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D36169DA3A600C04C64 /* AppDelegate.rb */,
+				F8D99D2F169DA3A600C04C64 /* Resources */,
+				F8D99D33169DA3A600C04C64 /* Other Sources */,
+				F8D99D27169DA3A600C04C64 /* Supporting Files */,
+			);
+			path = LunchTeam;
+			sourceTree = "<group>";
+		};
+		F8D99D27169DA3A600C04C64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D28169DA3A600C04C64 /* LunchTeam-Info.plist */,
+				F8D99D29169DA3A600C04C64 /* InfoPlist.strings */,
+				F8D99D2C169DA3A600C04C64 /* main.m */,
+				F8D99D2E169DA3A600C04C64 /* LunchTeam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D99D2F169DA3A600C04C64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D30169DA3A600C04C64 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8D99D33169DA3A600C04C64 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8D99D34169DA3A600C04C64 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		F8D99D23169DA3A600C04C64 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = F8D99D3D169DA3A600C04C64 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				F8D99D25169DA3A600C04C64 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		F8D99D1A169DA3A600C04C64 /* LunchTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D99D3A169DA3A600C04C64 /* Build configuration list for PBXNativeTarget "LunchTeam" */;
+			buildPhases = (
+				F8D99D17169DA3A600C04C64 /* Sources */,
+				F8D99D18169DA3A600C04C64 /* Frameworks */,
+				F8D99D19169DA3A600C04C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunchTeam;
+			productName = LunchTeam;
+			productReference = F8D99D1B169DA3A600C04C64 /* LunchTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D99D12169DA3A600C04C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Yoshiyuki MIYAGI";
+			};
+			buildConfigurationList = F8D99D15169DA3A600C04C64 /* Build configuration list for PBXProject "LunchTeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8D99D10169DA3A600C04C64;
+			productRefGroup = F8D99D1C169DA3A600C04C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D99D1A169DA3A600C04C64 /* LunchTeam */,
+				F8D99D23169DA3A600C04C64 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D99D19169DA3A600C04C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D99D2B169DA3A600C04C64 /* InfoPlist.strings in Resources */,
+				F8D99D32169DA3A600C04C64 /* MainMenu.xib in Resources */,
+				F8D99D35169DA3A600C04C64 /* rb_main.rb in Resources */,
+				F8D99D37169DA3A600C04C64 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D99D17169DA3A600C04C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D99D2D169DA3A600C04C64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D99D25169DA3A600C04C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D99D1A169DA3A600C04C64 /* LunchTeam */;
+			targetProxy = F8D99D24169DA3A600C04C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D99D29169DA3A600C04C64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D99D2A169DA3A600C04C64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8D99D30169DA3A600C04C64 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D99D31169DA3A600C04C64 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D99D38169DA3A600C04C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8D99D39169DA3A600C04C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8D99D3B169DA3A600C04C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTeam/LunchTeam-Prefix.pch";
+				INFOPLIST_FILE = "LunchTeam/LunchTeam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8D99D3C169DA3A600C04C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LunchTeam/LunchTeam-Prefix.pch";
+				INFOPLIST_FILE = "LunchTeam/LunchTeam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8D99D3E169DA3A600C04C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F8D99D3F169DA3A600C04C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D99D15169DA3A600C04C64 /* Build configuration list for PBXProject "LunchTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D99D38169DA3A600C04C64 /* Debug */,
+				F8D99D39169DA3A600C04C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D99D3A169DA3A600C04C64 /* Build configuration list for PBXNativeTarget "LunchTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D99D3B169DA3A600C04C64 /* Debug */,
+				F8D99D3C169DA3A600C04C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8D99D3D169DA3A600C04C64 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D99D3E169DA3A600C04C64 /* Debug */,
+				F8D99D3F169DA3A600C04C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D99D12169DA3A600C04C64 /* Project object */;
+}
