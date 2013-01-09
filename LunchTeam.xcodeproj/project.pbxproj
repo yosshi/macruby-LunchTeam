@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8D0C900169DA761004B458E /* Member.rb in Resources */ = {isa = PBXBuildFile; fileRef = F8D0C8FF169DA761004B458E /* Member.rb */; };
+		F8D0C902169DA84C004B458E /* Splitter.rb in Resources */ = {isa = PBXBuildFile; fileRef = F8D0C901169DA84C004B458E /* Splitter.rb */; };
 		F8D99D20169DA3A600C04C64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D99D1F169DA3A600C04C64 /* Cocoa.framework */; };
 		F8D99D22169DA3A600C04C64 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D99D21169DA3A600C04C64 /* MacRuby.framework */; };
 		F8D99D2B169DA3A600C04C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D99D29169DA3A600C04C64 /* InfoPlist.strings */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8D0C8FF169DA761004B458E /* Member.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Member.rb; path = model/Member.rb; sourceTree = "<group>"; };
+		F8D0C901169DA84C004B458E /* Splitter.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Splitter.rb; path = service/Splitter.rb; sourceTree = "<group>"; };
 		F8D99D1B169DA3A600C04C64 /* LunchTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D99D1F169DA3A600C04C64 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F8D99D21169DA3A600C04C64 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = ../../../../Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
@@ -52,6 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8D0C903169DA8A2004B458E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0C8FF169DA761004B458E /* Member.rb */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		F8D0C904169DA8B2004B458E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0C901169DA84C004B458E /* Splitter.rb */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 		F8D99D10169DA3A600C04C64 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				F8D99D36169DA3A600C04C64 /* AppDelegate.rb */,
+				F8D0C904169DA8B2004B458E /* Service */,
+				F8D0C903169DA8A2004B458E /* model */,
 				F8D99D2F169DA3A600C04C64 /* Resources */,
 				F8D99D33169DA3A600C04C64 /* Other Sources */,
 				F8D99D27169DA3A600C04C64 /* Supporting Files */,
@@ -189,6 +211,8 @@
 				F8D99D32169DA3A600C04C64 /* MainMenu.xib in Resources */,
 				F8D99D35169DA3A600C04C64 /* rb_main.rb in Resources */,
 				F8D99D37169DA3A600C04C64 /* AppDelegate.rb in Resources */,
+				F8D0C900169DA761004B458E /* Member.rb in Resources */,
+				F8D0C902169DA84C004B458E /* Splitter.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
